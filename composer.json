@@ -1,0 +1,26 @@
+{
+    "name": "ahmetaksoy/custom-logger",
+    "description": "",
+    "type": "library",
+    "homepage": "https://github.com/ahmetaksoy/custom-logger",
+    "authors": [
+        {
+            "name": "Ahmet Aksoy",
+            "email": "ahmetaksoy@ahmetaksoy.gen.tr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "ext-json": "*",
+        "illuminate/database": "^6.0",
+        "illuminate/log": "^6.0",
+        "illuminate/support": "^6.0",
+        "monolog/monolog": "^1.12|^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AhmetAksoy\\CustomLogger\\": "src/"
+        }
+    }
+}
